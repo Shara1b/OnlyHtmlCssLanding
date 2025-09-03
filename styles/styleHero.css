@@ -1,0 +1,44 @@
+.Hero{
+    width: 1192px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 108px;
+}
+.Hero h1{
+    width: 817px;
+    height: 150px;
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 17px;
+}
+.Hero p{
+    width: 369px;
+    height: 42px;
+    font-weight: 400;
+    font-size: 1.125rem;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.Hero button{
+    width: 180px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 1.125rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #0A8080;
+    color: #FFFFFF;
+}
+.Hero button:hover{
+    background-color: #2b5757;
+    color: #FFFFFF;
+}
+.Hero button:active{
+    background-color: #FFFFFF;
+    color: #0A8080;
+}
+
