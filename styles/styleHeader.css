@@ -48,6 +48,10 @@ header{
     margin-top: 3.5px;
     margin-bottom: 3.5px;
 }
+.btnLogin:hover{
+    color:#ffffff;
+    background-color: #0A8080;
+}
 .btnGetStarter{
     width: 91px;
     height: 33px;
@@ -58,4 +62,8 @@ header{
     font-size: 1rem;
     margin: 3.5px 0;
     padding: 0;
+}
+.btnGetStarter:hover{
+    color:#ffffff;
+    background-color: #0A8080;
 }

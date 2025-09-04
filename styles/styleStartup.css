@@ -1,0 +1,103 @@
+.Startup{
+    width: 100%;
+    height: 1195px;
+    display: flex;
+    background-color: #FFF5ED;
+    flex-direction: column;
+    align-items: center;
+}
+.Smart{
+    width: 1193px;
+    height: 390px;
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Smart h2{
+    width: 556px;
+    height: 50px;
+    color: #0F2137;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.Smart .textSmart{
+    width: 500px;
+    height: 60px;
+    color: #0F2137;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 130px;
+    line-height: 30px;  
+}
+.Service{
+    width: 1193px;
+    height: 130px;
+    display: flex;
+}
+.ServiceBox{
+    width: 383px;
+    height: 130px;
+    display: flex;   
+}
+.ServiceBox img{
+    width: 88px;
+    height: 88px;
+    flex-direction: column;
+    margin-right: 30px;
+}
+.ServiceBox div h3{
+    width: 265px;
+    font-weight: 700;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin: 0px;
+}
+.ServiceBox div p{
+    width: 265px;
+    height: 90px;
+    font-weight: 400;
+    margin: 0px;
+}
+.Customer{
+    width: 1200px;
+    height: 412px;
+    margin-top: 169px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Quote{
+    width: 931px;
+    height: 214px;
+    margin-bottom: 90px;
+}
+.FirstTextQuote{
+    width: 790px;
+    height: 150px;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 50px;
+    margin: 0px;
+    margin-bottom: 15px;
+    color: #0F2137;
+}
+.LastTextQuote{
+    width: 255px;
+    height: 40px;
+    margin: 0px;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #7E8896;
+}
+.logos{
+    width: 1040px;
+    height: 47px;
+    gap: 90px;
+    margin-top: 59px;
+    display: flex;
+}
