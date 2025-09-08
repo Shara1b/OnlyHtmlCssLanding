@@ -1,0 +1,76 @@
+.Ultimate{
+    width: 100%;
+    height: 920px;
+    background-color: #F9FAFC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.UltimateText{
+    width: 583px;
+    height: 141px;
+    color: #0F2137;
+    margin-bottom: 110px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+.UltimateText h1{
+    width: 551px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 2.125rem;
+    margin-top: 85px;
+    margin-bottom: 20px;
+}
+.UltimateText p{
+    width: 570px;
+    height: 71px;
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 0;
+    text-align: center;
+}
+.Features{
+    width: 1193px;
+    height: 454px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.FeaturesBox{
+    width: 383px;
+    height: 187px;
+    display: flex;
+}
+.FeaturesBox img{
+    width: 88px;
+    height: 88px;
+    flex-direction: column;
+    margin-right: 30px;
+}
+.FeaturesBox h3{
+    width: 265px;
+    height: 30px;
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.125rem;
+    color: #0F2137;
+}
+.FeaturesBox p{
+    width: 265px;
+    height: 90px;
+    color: #343D48;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.FeaturesBox span{
+    width: 86px;
+    height: 42px;
+    color: #3183FF;
+    font-weight: 500;
+    font-size: 1rem;
+    margin: 0;
+}
