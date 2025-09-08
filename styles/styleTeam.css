@@ -1,0 +1,50 @@
+.Team{
+    margin-top: 85px;
+    width: 1610px;
+    height: 763px;
+    
+}
+.Team article{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.Team article h1{
+    width: 328px;
+    height: 50px;
+    color: #0F2137;
+    font-weight: 700;
+    font-size: 2.125rem;
+    margin: 0;
+    
+}
+.Team article p{
+    width: 515px;
+    height: 60px;
+    color: #0F2137;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 0;
+}
+.TeamBox{
+    display: flex;
+    margin-top: 100px;
+    gap: 30px;
+}
+.TeamCart{
+    width: 380px;
+    height: 533px;
+}
+.TeamCart p{
+    color: #7589A1;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+.TeamCart h3{
+    flex-direction: column;
+    margin-bottom: 0;
+}
