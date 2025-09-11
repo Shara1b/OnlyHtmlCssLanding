@@ -1,0 +1,106 @@
+.Subscribe{
+    position: relative;
+    width: 100%;
+    height: 380px;
+    background-color: #F8F0EA;
+    flex-direction: column;
+    align-items: center;
+    /* grid; Grid создает сетку из строк и столбцов, в которые можно размещать элементы. */
+   
+}
+.Subscribe img{
+    width: 100%;
+    height: 380px;
+}
+.SubscribeBox{
+    position: absolute; /* делает элемент фиксированным */
+    top: 50%;          /* позиционирование по вертикали */
+    left: 50%;         /* позиционирование по горизонтали */
+    transform: translate(-50%, -50%); /* центрирование */
+    width: 62.5%;
+    height: 230px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    z-index: 1000;        /* поверх других элементов */
+    display: flex;
+}
+.SubscribeBox h1{
+    width: 478px;
+    height: 55px;
+    font-weight: 700;
+    font-size: 2.125rem;
+    color: #0F2137;
+    margin-left: 45px;
+    margin-top: 49px;
+    margin-bottom: 2px;
+    margin-right: 117px;
+}
+.SubscribeBox p{
+    width: 421px;
+    height: 53px;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #343D48;
+    margin-left: 45px;
+    margin-bottom: 70px;
+}
+form div input{
+    width: 350px;
+    height: 60px;
+    background-color: #EFF3F7;
+    border-radius: 5px;
+    margin-top: 69px;
+    margin-right: 15px;
+    padding-left: 24px;
+    box-sizing: border-box;
+    border: none;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+form div input::placeholder{
+    font-weight: 400;
+    font-size: 1rem;
+    color: #02073E;
+    opacity: 0.4;
+}
+form div button{
+    width: 150px;
+    height: 60px;
+    background-color: #DB4A87;
+    color: #ffffff;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 1.125rem;
+    border: none;
+}
+form div button:active{
+    width: 150px;
+    height: 60px;
+    background-color: #02073E;
+    opacity: 0.4;
+    color: #ffffff;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 1.125rem;
+    border: none;
+}
+form label{
+    width: 284px;
+    height: 30px;
+    color: #9095AD;
+    font-weight: 400;
+    font-size: 0.87rem;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+}
+form label input{
+    width: 16px;
+    height: 16px;
+    margin: 7px 0;
+}
