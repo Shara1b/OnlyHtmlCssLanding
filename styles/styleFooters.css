@@ -1,0 +1,142 @@
+.footers{
+    margin-top: 50px;
+    width: 1254px;
+    height: 248px;
+    display: flex;
+    gap: 99px;
+}
+.OneBox{
+    width: 214px;
+    height: 116px;
+    margin-top: 11px;
+}
+.logoStartup h2{
+    width: 154px;
+    height: 24px;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #02073E;
+    opacity: 0.8;
+    margin: 0;
+}
+.logoStartup{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.logoLanding{
+    width: 27px;
+    height: 37px;
+}
+.FirstTextOneBox{
+    width: 155px;
+    height: 18px;
+    font-weight: 400;
+    font-size: 0.87rem;
+    color: #0F2137;
+    margin-bottom: 20px;
+}
+.LastTextOneBox{
+    width: 214px;
+    height: 18px;
+    font-weight: 400;
+    font-size: 0.87rem;
+    color: #0F2137;
+    opacity: 0.6;
+}
+.TwoBox{
+    width: 164px;
+    height: 230px;
+}
+.TwoBox h2{
+    width: 80px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 1.125rem;
+    color: #0F2137;
+    margin: 0 0 28px 0;
+}
+.TwoBox p{
+    font-weight: 400;
+    color: #02073E;
+    opacity: 0.8;
+    flex-direction: column;
+    font-size: 0.93rem;
+    line-height: 35px;
+    margin: 0;
+}
+.ThreeBox{
+    width: 141px;
+    height: 230px;
+}
+.ThreeBox h2{
+    width: 134px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 1.125rem;
+    color: #0F2137;
+    margin: 0 0 28px 0;
+}
+.ThreeBox p{
+    font-weight: 400;
+    color: #02073E;
+    opacity: 0.8;
+    flex-direction: column;
+    font-size: 0.93rem;
+    line-height: 35px;
+    margin: 0;
+}
+.FourBox{
+    width: 161px;
+    height: 230px;
+}
+.FourBox h2{
+    width: 103px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 1.125rem;
+    color: #0F2137;
+    margin: 0 0 28px 0;
+}
+.FourBox p{
+    font-weight: 400;
+    color: #02073E;
+    opacity: 0.8;
+    flex-direction: column;
+    font-size: 0.93rem;
+    line-height: 35px;
+    margin: 0;
+}
+.ConnectBox{
+    width: 200px;
+    height: 220px;
+    flex-direction: column;
+}
+.ConnectBox h2{
+    width: 72px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 1.125rem;
+    color: #0F2137;
+    margin: 0 0 28px 0;
+}
+.ConnectBox p{
+    font-weight: 400;
+    color: #02073E;
+    opacity: 0.8;
+    flex-direction: column;
+    font-size: 0.93rem;
+    line-height: 35px;
+    margin: 0;
+}
+.logo{
+    width: 20px;
+    height: 20px;
+    object-fit: contain; 
+    flex-shrink: 0;
+}
+.logo-item{
+    display: flex;
+    align-items: center; 
+    gap: 12px; 
+}

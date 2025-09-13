@@ -5,23 +5,27 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 110px;
+}
+.Ultimate h1, h3{
+    color: #0F2137;
+    font-weight: 700;
 }
 .UltimateText{
     width: 583px;
     height: 141px;
     color: #0F2137;
-    margin-bottom: 110px;
     flex-direction: column;
     align-items: center;
     display: flex;
+    margin-top: 85px;
+    gap: 20px;
 }
 .UltimateText h1{
     width: 551px;
     height: 50px;
-    font-weight: 700;
     font-size: 2.125rem;
-    margin-top: 85px;
-    margin-bottom: 20px;
+    margin: 0;
 }
 .UltimateText p{
     width: 570px;
@@ -36,26 +40,24 @@
     height: 454px;
     display: flex;
     flex-wrap: wrap;
-    
+    gap: 22px;
 }
 .FeaturesBox{
     width: 383px;
     height: 187px;
     display: flex;
+    gap: 30px;
 }
 .FeaturesBox img{
     width: 88px;
     height: 88px;
     flex-direction: column;
-    margin-right: 30px;
 }
 .FeaturesBox h3{
     width: 265px;
     height: 30px;
     margin: 0;
-    font-weight: 700;
     font-size: 1.125rem;
-    color: #0F2137;
 }
 .FeaturesBox p{
     width: 265px;

@@ -89,9 +89,12 @@
 }
 .explore-more{
     margin: 0;
-    width: 100px;
+    width: 130px;
     height: 42px;
     color: #3183FF;
     font-weight: 500;
     font-size: 1rem;
+    display: flex;
+    align-items: center; 
+    gap: 12px; 
 }

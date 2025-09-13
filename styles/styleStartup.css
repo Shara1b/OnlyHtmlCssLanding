@@ -52,8 +52,6 @@
     width: 265px;
     font-weight: 700;
     height: 30px;
-    display: flex;
-    flex-direction: column;
     margin-bottom: 10px;
     margin: 0px;
 }
@@ -61,6 +59,7 @@
     width: 265px;
     height: 90px;
     font-weight: 400;
+    line-height: 30px;
     margin: 0px;
 }
 .Customer{
@@ -71,12 +70,12 @@
     flex-direction: column;
     align-items: center;
 }
-.Quote{
+.Customer div:first-of-type{
     width: 931px;
     height: 214px;
     margin-bottom: 90px;
 }
-.FirstTextQuote{
+.Customer div:first-of-type p:first-of-type{
     width: 790px;
     height: 150px;
     font-weight: 400;
@@ -86,7 +85,7 @@
     margin-bottom: 15px;
     color: #0F2137;
 }
-.LastTextQuote{
+.Customer div:first-of-type p:last-of-type{
     width: 255px;
     height: 40px;
     margin: 0px;
@@ -94,7 +93,8 @@
     font-size: 1rem;
     color: #7E8896;
 }
-.logos{
+
+.Customer div:last-of-type{
     width: 1040px;
     height: 47px;
     gap: 90px;
